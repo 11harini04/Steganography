@@ -1,5 +1,5 @@
 from PIL import Image as im
-encoded = im.open('Encoded.bmp')
+encoded = im.open('stego-img.bmp')
 enc = encoded.load()
 
 n1=encoded.size[0]
