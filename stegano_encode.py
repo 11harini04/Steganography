@@ -40,4 +40,4 @@ for i in range(cover.size[0]):
         for j in range(cover.size[1]):
             enc[i,j]=pixelc[i,j]
 
-encoded.save('Encoded.bmp')
+encoded.save('stego-img.bmp')
